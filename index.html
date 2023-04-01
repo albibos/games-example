@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAMES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>GAMES:</h1>
+  </header>
+  <main>
+    <div class="button-container">
+      <!-- replace the game name with the name of the game from the 3kh0 assets github, and obviously change the img with it -->
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/among-us.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/among-us.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/among-us.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/among-us.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>
+      <button onclick="javascript:game('temple-run-2')" class="game-button"><img src="https://easyreadwrite.xyz/assets/temple-run.png" alt=""></button>>
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <script>
+    function game(src) {
+      window.location.href = 'gameframe.html?game=' + src;
+    }
+  </script>
+</body>
+</html>

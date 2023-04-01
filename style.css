@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #292929;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: -40px;
+}
+
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.game-button {
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.5s;
+}
+
+.game-button:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  transform: scale(1.2) rotate(-10deg);
+}
+
+.game-button img {
+  width: 200px;
+  height: 200px;
+}
